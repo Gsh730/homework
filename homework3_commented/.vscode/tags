@@ -1,0 +1,110 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+._gridworld.py	../../__MACOSX/homework3_commented/._gridworld.py	1;"	kind:file	line:1
+._qlearn.py	../../__MACOSX/homework3_commented/._qlearn.py	1;"	kind:file	line:1
+._rl_qlearn.py	../../__MACOSX/homework3_commented/._rl_qlearn.py	1;"	kind:file	line:1
+._rl_sarsa.py	../../__MACOSX/homework3_commented/._rl_sarsa.py	1;"	kind:file	line:1
+GridWorldMDP	../gridworld.py	/^class GridWorldMDP:$/;"	kind:class	line:6
+QLearner	../qlearn.py	/^class QLearner:$/;"	kind:class	line:4
+__init__	../gridworld.py	/^    def __init__(self,$/;"	kind:member	line:18
+__init__	../qlearn.py	/^    def __init__(self, *,$/;"	kind:member	line:6
+_calculate_utility	../gridworld.py	/^    def _calculate_utility(self, loc, discount, utility_grid):$/;"	kind:member	line:241
+_create_transition_matrix	../gridworld.py	/^    def _create_transition_matrix(self,$/;"	kind:member	line:159
+_direction_deltas	../gridworld.py	/^    _direction_deltas = [$/;"	kind:variable	line:10
+_init_utility_policy_storage	../gridworld.py	/^    def _init_utility_policy_storage(self, depth):$/;"	kind:member	line:134
+_num_actions	../gridworld.py	/^    _num_actions = len(_direction_deltas)$/;"	kind:variable	line:16
+_value_iteration	../gridworld.py	/^    def _value_iteration(self, utility_grid, discount=1.0):$/;"	kind:member	line:214
+best_policy	../gridworld.py	/^    def best_policy(self, utility_grid):$/;"	kind:member	line:127
+default_reward	../rl_qlearn.py	/^    default_reward = -0.1$/;"	kind:variable	line:35
+default_reward	../rl_sarsa.py	/^    default_reward = -0.1$/;"	kind:variable	line:35
+flat_policies	../rl_qlearn.py	/^    flat_policies, flat_utilities = ql.learn(start_state,$/;"	kind:variable	line:109
+flat_policies	../rl_sarsa.py	/^    flat_policies, flat_utilities = sa.learn(start_state,$/;"	kind:variable	line:110
+flat_utilities	../rl_qlearn.py	/^    flat_policies, flat_utilities = ql.learn(start_state,$/;"	kind:variable	line:109
+flat_utilities	../rl_sarsa.py	/^    flat_policies, flat_utilities = sa.learn(start_state,$/;"	kind:variable	line:110
+generate_experience	../gridworld.py	/^    def generate_experience(self, current_state_idx, action_idx):$/;"	kind:member	line:95
+goal	../rl_qlearn.py	/^    goal = (5, -1)$/;"	kind:variable	line:22
+goal	../rl_sarsa.py	/^    goal = (5, -1)$/;"	kind:variable	line:22
+goal_reward	../rl_qlearn.py	/^    goal_reward = 1$/;"	kind:variable	line:36
+goal_reward	../rl_sarsa.py	/^    goal_reward = 1$/;"	kind:variable	line:36
+grid_coordinates_to_indices	../gridworld.py	/^    def grid_coordinates_to_indices(self, coordinates=None):$/;"	kind:member	line:119
+grid_indices_to_coordinates	../gridworld.py	/^    def grid_indices_to_coordinates(self, indices=None):$/;"	kind:member	line:111
+gridworld.py	../gridworld.py	1;"	kind:file	line:1
+gw	../rl_qlearn.py	/^    gw = GridWorldMDP(reward_grid=reward_grid,$/;"	kind:variable	line:69
+gw	../rl_sarsa.py	/^    gw = GridWorldMDP(reward_grid=reward_grid,$/;"	kind:variable	line:69
+iterations	../rl_qlearn.py	/^    iterations = 1000$/;"	kind:variable	line:102
+iterations	../rl_sarsa.py	/^    iterations = 1000$/;"	kind:variable	line:103
+learn	../qlearn.py	/^    def learn(self, initial_state, experience_func, iterations=100):$/;"	kind:member	line:33
+mdp_solvers	../rl_qlearn.py	/^    mdp_solvers = {'Value Iteration': gw.run_value_iterations,$/;"	kind:variable	line:79
+mdp_solvers	../rl_sarsa.py	/^    mdp_solvers = {'Value Iteration': gw.run_value_iterations,$/;"	kind:variable	line:79
+new_shape	../rl_qlearn.py	/^    new_shape = (gw.shape[0], gw.shape[1], iterations)$/;"	kind:variable	line:113
+new_shape	../rl_sarsa.py	/^    new_shape = (gw.shape[0], gw.shape[1], iterations)$/;"	kind:variable	line:114
+np	../gridworld.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../qlearn.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../rl_qlearn.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../rl_sarsa.py	/^import numpy as np$/;"	kind:namespace	line:4
+obstacle1	../rl_qlearn.py	/^    obstacle1 = (1, 1)$/;"	kind:variable	line:30
+obstacle1	../rl_sarsa.py	/^    obstacle1 = (1, 1)$/;"	kind:variable	line:30
+obstacle2	../rl_qlearn.py	/^    obstacle2 = (0, 5)$/;"	kind:variable	line:31
+obstacle2	../rl_sarsa.py	/^    obstacle2 = (0, 5)$/;"	kind:variable	line:31
+obstacle3	../rl_qlearn.py	/^    obstacle3 = (2, 3)$/;"	kind:variable	line:32
+obstacle3	../rl_sarsa.py	/^    obstacle3 = (2, 3)$/;"	kind:variable	line:32
+obstacle4	../rl_qlearn.py	/^    obstacle4 = (3, 5)$/;"	kind:variable	line:33
+obstacle4	../rl_sarsa.py	/^    obstacle4 = (3, 5)$/;"	kind:variable	line:33
+obstacle_mask	../rl_qlearn.py	/^    obstacle_mask = np.zeros_like(reward_grid, dtype=np.bool)$/;"	kind:variable	line:63
+obstacle_mask	../rl_sarsa.py	/^    obstacle_mask = np.zeros_like(reward_grid, dtype=np.bool)$/;"	kind:variable	line:63
+plot_convergence	../rl_qlearn.py	/^def plot_convergence(utility_grids, policy_grids):$/;"	kind:function	line:8
+plot_convergence	../rl_sarsa.py	/^def plot_convergence(utility_grids, policy_grids):$/;"	kind:function	line:8
+plot_policy	../gridworld.py	/^    def plot_policy(self, utility_grid, policy_grid=None):$/;"	kind:member	line:252
+plt	../gridworld.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../rl_qlearn.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+plt	../rl_sarsa.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+policy_grids	../rl_qlearn.py	/^        policy_grids, utility_grids = solver_fn(iterations=25, discount=0.5)$/;"	kind:variable	line:84
+policy_grids	../rl_sarsa.py	/^        policy_grids, utility_grids = solver_fn(iterations=25, discount=0.5)$/;"	kind:variable	line:84
+ql	../rl_qlearn.py	/^    ql = QLearner(num_states=(shape[0] * shape[1]),$/;"	kind:variable	line:92
+ql_policy_grids	../rl_qlearn.py	/^    ql_policy_grids = flat_policies.reshape(new_shape)$/;"	kind:variable	line:115
+ql_utility_grids	../rl_qlearn.py	/^    ql_utility_grids = flat_utilities.reshape(new_shape)$/;"	kind:variable	line:114
+qlearn.py	../qlearn.py	1;"	kind:file	line:1
+reward_grid	../gridworld.py	/^    def reward_grid(self):$/;"	kind:member	line:61
+reward_grid	../rl_qlearn.py	/^    reward_grid = np.zeros(shape) + default_reward$/;"	kind:variable	line:39
+reward_grid	../rl_sarsa.py	/^    reward_grid = np.zeros(shape) + default_reward$/;"	kind:variable	line:39
+rl_qlearn.py	../rl_qlearn.py	1;"	kind:file	line:1
+rl_sarsa.py	../rl_sarsa.py	1;"	kind:file	line:1
+run_policy_iterations	../gridworld.py	/^    def run_policy_iterations(self, discount=1.0, iterations=10):$/;"	kind:member	line:77
+run_value_iterations	../gridworld.py	/^    def run_value_iterations(self, discount=1.0,$/;"	kind:member	line:64
+sa	../rl_sarsa.py	/^    sa = Sarsa(num_states=(shape[0] * shape[1]),$/;"	kind:variable	line:92
+sa_policy_grids	../rl_sarsa.py	/^    sa_policy_grids = flat_policies.reshape(new_shape)$/;"	kind:variable	line:116
+sa_utility_grids	../rl_sarsa.py	/^    sa_utility_grids = flat_utilities.reshape(new_shape)$/;"	kind:variable	line:115
+shape	../gridworld.py	/^    def shape(self):$/;"	kind:member	line:53
+shape	../rl_qlearn.py	/^    shape = (6, 8)$/;"	kind:variable	line:21
+shape	../rl_sarsa.py	/^    shape = (6, 8)$/;"	kind:variable	line:21
+size	../gridworld.py	/^    def size(self):$/;"	kind:member	line:57
+start	../rl_qlearn.py	/^    start = (2, 0)$/;"	kind:variable	line:34
+start	../rl_sarsa.py	/^    start = (2, 0)$/;"	kind:variable	line:34
+start_state	../rl_qlearn.py	/^    start_state = gw.grid_coordinates_to_indices(start)$/;"	kind:variable	line:100
+start_state	../rl_sarsa.py	/^    start_state = gw.grid_coordinates_to_indices(start)$/;"	kind:variable	line:100
+terminal_mask	../rl_qlearn.py	/^    terminal_mask = np.zeros_like(reward_grid, dtype=np.bool)$/;"	kind:variable	line:53
+terminal_mask	../rl_sarsa.py	/^    terminal_mask = np.zeros_like(reward_grid, dtype=np.bool)$/;"	kind:variable	line:53
+trap1	../rl_qlearn.py	/^    trap1 = (1, -1)$/;"	kind:variable	line:23
+trap1	../rl_sarsa.py	/^    trap1 = (1, -1)$/;"	kind:variable	line:23
+trap2	../rl_qlearn.py	/^    trap2 = (4, 1)$/;"	kind:variable	line:24
+trap2	../rl_sarsa.py	/^    trap2 = (4, 1)$/;"	kind:variable	line:24
+trap3	../rl_qlearn.py	/^    trap3 = (4, 2)$/;"	kind:variable	line:25
+trap3	../rl_sarsa.py	/^    trap3 = (4, 2)$/;"	kind:variable	line:25
+trap4	../rl_qlearn.py	/^    trap4 = (4, 3)$/;"	kind:variable	line:26
+trap4	../rl_sarsa.py	/^    trap4 = (4, 3)$/;"	kind:variable	line:26
+trap5	../rl_qlearn.py	/^    trap5 = (4, 4)$/;"	kind:variable	line:27
+trap5	../rl_sarsa.py	/^    trap5 = (4, 4)$/;"	kind:variable	line:27
+trap6	../rl_qlearn.py	/^    trap6 = (4, 5)$/;"	kind:variable	line:28
+trap6	../rl_sarsa.py	/^    trap6 = (4, 5)$/;"	kind:variable	line:28
+trap7	../rl_qlearn.py	/^    trap7 = (4, 6)$/;"	kind:variable	line:29
+trap7	../rl_sarsa.py	/^    trap7 = (4, 6)$/;"	kind:variable	line:29
+trap_reward	../rl_qlearn.py	/^    trap_reward = -1$/;"	kind:variable	line:37
+trap_reward	../rl_sarsa.py	/^    trap_reward = -1$/;"	kind:variable	line:37
+utility_grids	../rl_qlearn.py	/^        policy_grids, utility_grids = solver_fn(iterations=25, discount=0.5)$/;"	kind:variable	line:84
+utility_grids	../rl_sarsa.py	/^        policy_grids, utility_grids = solver_fn(iterations=25, discount=0.5)$/;"	kind:variable	line:84
