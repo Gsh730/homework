@@ -155,6 +155,7 @@ class GridWorldMDP:
     #    (1, 0.1),
     # ],
     # no_action_probability=0.0
+    # this function sames not important, and I just need to know the T created
     def _create_transition_matrix(self,
                                   action_probabilities,
                                   no_action_probability,
@@ -207,6 +208,7 @@ class GridWorldMDP:
         terminal_locs = np.where(self._terminal_mask.flatten())[0]
         T[r0[terminal_locs], c0[terminal_locs], :, :, :] = 0
         return T
+    # Done
 
     # This function computes one iteration of the value iteration for all 
     # state s in the grid, compute vk+1(s) <- f(vk(s))
